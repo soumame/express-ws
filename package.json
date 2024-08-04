@@ -1,22 +1,13 @@
 {
-  "name": "express-ws",
+  "name": "@soumame/express-ws",
   "version": "5.0.1",
-  "description": "WebSocket endpoints for Express applications",
+  "description": "Forked version of express-ws, WebSocket endpoints for Express applications.",
   "main": "index",
   "module": "src/index",
   "scripts": {
     "lint": "eslint src/"
   },
-  "author": "Henning Morud <henning@morud.org>",
-  "contributors": [
-    "Jesús Leganés Combarro <piranna@gmail.com>",
-    "Sven Slootweg <admin@cryto.net>",
-    "Andrew Phillips <theasp@gmail.com>",
-    "Nicholas Schell <nschell@gmail.com>",
-    "Max Truxa <dev@maxtruxa.com>",
-    "Kræn Hansen <mail@kraenhansen.dk>",
-    "Alexis Tyler <xo@wvvw.me>"
-  ],
+  "author": "Modified by So Tokumaru <soumame1090@gmail.com>",
   "license": "BSD-2-Clause",
   "dependencies": {
     "esm": "^3.0.84",
@@ -33,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/HenningM/express-ws"
+    "url": "https://github.com/soumame/express-ws"
   },
   "keywords": [
     "express",
@@ -41,9 +32,9 @@
     "websocket"
   ],
   "bugs": {
-    "url": "https://github.com/HenningM/express-ws/issues"
+    "url": "https://github.com/soumame/express-ws/issues"
   },
-  "homepage": "https://github.com/HenningM/express-ws",
+  "homepage": "https://github.com/soumame/express-ws",
   "devDependencies": {
     "eslint": "^7.27.0",
     "eslint-config-airbnb": "^18.2.1",
