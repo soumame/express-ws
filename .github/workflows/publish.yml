@@ -23,7 +23,7 @@ jobs:
         run: npm install
 
       - name: Build package
-        run: npm run prepublish
+        run: npm run prepublishOnly
 
       - name: Publish to npm
         run: npm publish
