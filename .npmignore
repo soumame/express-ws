@@ -1,2 +1,5 @@
 src/
 .github
+.vscode
+examples/
+node_modules/

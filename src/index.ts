@@ -6,7 +6,7 @@ import * as core from "express-serve-static-core";
 import websocketUrl from "./websocket-url";
 import addWsMethod from "./add-ws-method";
 
-export default function expressWs(
+function expressWs(
   app: express.Application,
   httpServer?: http.Server,
   options: expressWs.Options = {}
@@ -107,3 +107,5 @@ namespace expressWs {
     ws: WebsocketMethod<this>;
   }
 }
+
+export = expressWs;
